@@ -1,0 +1,67 @@
+.dark {
+    background-image: url("../images/backgroundanime.jpg");
+    background-size: cover;
+    color: #eceaea;
+}
+
+.nav-bar-darkmode {
+    background-color: rgba(36, 36, 36, 0.7) !important;
+}
+
+.table {
+    background-color: rgba(36, 36, 36, 0.7) !important;
+}
+
+.table-head {
+
+    background-color: rgba(27, 27, 27, 0.678) !important;
+}
+
+.table tr:hover {
+    transition: all 0.3s ease 0s;
+    /* background-color: rgba(228, 228, 228, 0.726) !important; */
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(255,255,255,0.10);
+}
+.table tr:hover>td>a{
+    transition: all 0.3s ease 0s;
+    /* color: #212529 !important; */
+    
+}
+
+
+.released {
+    background-color: #9af7b0b4;
+    color: rgb(10, 82, 4) !important;
+
+}
+
+.released>td>a {
+    
+    color: rgb(10, 82, 4) !important;
+
+}
+.link-name{
+    color: #dfdfdf;
+}
+
+
+.test{
+    color: #dfdfdf;
+}
+
+.released:hover {
+    background-color: lightgreen !important;
+    color: rgb(149, 252, 149) !important;
+}
+
+.released:hover>td>a {
+    color: rgb(149, 252, 149) !important;
+}
+
+.card-dark{
+    background-color: rgba(36, 36, 36, 0.7) !important;
+}
